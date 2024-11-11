@@ -64,7 +64,7 @@ TAM was tested on a variety of benchmark functions and showed significant improv
 If you use this algorithm in your work, please cite the following paper:
 
 ```bibtex
-@article{TAM2024,
+@article{TAM2025,
   author = {Junbo Jacob Lian and Kaichen OuYang and Rui Zhong and Yujun Zhang and Shipeng Luo and Ling Ma and Xincan Wu and Huiling Chen},
   title = {Trend-Aware Mechanism: A Novel Update Strategy for Improved Metaheuristic Algorithm Performance},
   journal = {Journal Name},
