@@ -63,15 +63,9 @@ TAM was tested on a variety of benchmark functions and showed significant improv
 
 If you use this algorithm in your work, please cite the following paper:
 
-```bibtex
-@article{TAM2025,
-  author = {Junbo Jacob Lian and Kaichen OuYang and Rui Zhong and Yujun Zhang and Shipeng Luo and Ling Ma and Xincan Wu and Huiling Chen},
-  title = {Trend-Aware Mechanism: A Novel Update Strategy for Improved Metaheuristic Algorithm Performance},
-  journal = {Journal Name},
-  year = {2025},
-  url = {https://github.com/junbolian/Trend-Aware-Mechanism}
-}
-```
+J. J. Lian et al., Trend-Aware Mechanism: A Novel Update Strategy for Improved Metaheuristic Algorithm Performance.
+
+
 
 ## Flowchart
 
@@ -79,6 +73,3 @@ A flowchart summarizing the Trend-Aware Mechanism can be found below:
 
 ![Chart](Chart.png)
 
----
-
-You can upload the flowchart as `Chart.png` in the repository to accompany the README. Let me know if you need further assistance!
