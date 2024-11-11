@@ -1,52 +1,83 @@
-# IECO: Improved Educational Competition Optimizer
+# Trend-Aware Mechanism: A Novel Update Strategy for Improved Metaheuristic Algorithm Performance
 
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/junbolian/IECO)
-![GitHub repo size](https://img.shields.io/github/repo-size/junbolian/IECO)
-![GitHub language count](https://img.shields.io/github/languages/count/junbolian/IECO)
-![GitHub last commit](https://img.shields.io/github/last-commit/junbolian/IECO)
-![GitHub issues](https://img.shields.io/github/issues/junbolian/IECO)
-![GitHub forks](https://img.shields.io/github/forks/junbolian/IECO)
-![GitHub stars](https://img.shields.io/github/stars/junbolian/IECO)
-![GitHub watchers](https://img.shields.io/github/watchers/junbolian/IECO)
-![GitHub contributors](https://img.shields.io/github/contributors/junbolian/IECO)
+**Authors:**  
+Junbo Jacob Lian, Kaichen OuYang, Rui Zhong, Yujun Zhang, Shipeng Luo, Ling Ma, Xincan Wu, Huiling Chen  
+**Affiliations:**
+- a) School of Mathematics and Computer Sciences, Zhejiang A & F University, Hangzhou 311300, PR China
+- b) Information Initiative Center, Hokkaido University, Sapporo, Japan
+- c) School of New Energy, Jingchu University of Technology, Jingmen 448000, PR China
+- d) School of Mathematics, University of Science and Technology of China, Hefei 230026, PR China
+- e) College of Mechanical and Electrical Engineering, Northeast Forestry University, Harbin 150040, PR China
+- f) School of Computer Science and Artificial Intelligence, Wenzhou University, Wenzhou 325035, PR China
 
+**Abstract:**  
+In metaheuristic optimization algorithm design, historical search position information is often underutilized, despite its potential to reveal both individual movement trends and promising search directions. To address this, we propose a Trend-Aware Mechanism (TAM) that leverages historical search position data to enhance the updating of individual positions. TAM first determines the primary movement direction by calculating a trend line between population positions from the previous two iterations. It then evaluates whether a more optimal search position exists between these points by analyzing the fitness of the K points closest to the trend line. An adaptive covariance mechanism is subsequently employed to generate high-dimensional random vectors that balance historical trends with random exploration, allowing for dynamic adjustment of position updating strategies. Experimental results demonstrate that TAM significantly enhances population search capabilities and yields superior optimization performance across a range of standard benchmark functions.
 
-This repository provides the source code for the **Improved Educational Competition Optimizer (IECO)**, a novel optimization algorithm designed for advanced engineering optimization tasks.
+**Keywords:**  
+Trend-Aware Mechanism, Metaheuristic, Optimization Algorithm, Update Strategy, Evolutionary Computation
 
-## Overview
+## Installation
 
-The IECO source code includes two distinct sets of benchmark test functions:
-- **Standard Benchmark Functions**: Classical test functions commonly used for evaluating optimization algorithms.
-- **Shifted Benchmark Functions**: Classical functions that have been shifted to avoid the bias towards the origin, aiding in better generalization and preventing overfitting.
+To use the Trend-Aware Mechanism (TAM) algorithm, simply clone this repository:
 
-The repository is structured into folders that can be executed directly using the provided `main` files for easy experimentation and testing.
+```bash
+git clone https://github.com/junbolian/Trend-Aware-Mechanism.git
+```
 
-## Features
+Then, navigate into the directory and follow the instructions in the usage section below.
 
-- **Early Stopping Mechanism**: The improved version of IECO incorporates an early stopping feature implemented through two `m` files, enhancing the algorithm's efficiency and robustness.
-- **User-Friendly Implementation**: The code is designed for easy integration and use in your own optimization experiments.
+## Usage
 
-## How to Use
+TAM can be integrated with your existing metaheuristic algorithms. Here is an example of how to use TAM with a basic population optimization loop:
 
-1. Clone the repository.
-2. Navigate to the desired test function set.
-3. Run the `main` file to start the optimization process.
+1. Define the `search_history` and `fitness_history` arrays that store the positions and fitness of individuals over iterations.
+2. Call the `TrendAwareMechanism()` function to update positions using historical data and trend-aware updates.
+3. Integrate the updated positions into your optimization loop.
 
-Detailed documentation for running and modifying the code is provided within the comments of each file. For an in-depth explanation of the algorithm and its implementation, please refer to the upcoming publication.
+For details on the function and algorithm implementation, refer to the code in this repository.
+
+## Algorithm: Trend-Aware Mechanism (TAM)
+
+```python
+# Pseudo-code for TAM algorithm
+1: INPUT: search_history, fitness_history, Max_iter, i, j, K
+2: IF i <= n THEN
+3:      RETURN zero vector of size 1 × dim
+4:  END IF
+...
+```
+
+Refer to the [Algorithm](#) section in the paper for more details.
+
+## Key Features
+- **Historical Trend Utilization:** Uses past search positions to predict movement trends and optimize future positions.
+- **Adaptive Covariance Mechanism:** Balances exploration and exploitation during position updates.
+- **Integration with Popular Algorithms:** Tested with PSO, SHADE, JaDE, and CMA-ES for enhanced optimization performance.
+
+## Experimental Results
+
+TAM was tested on a variety of benchmark functions and showed significant improvements over existing optimization algorithms. Detailed experimental results are available in the accompanying paper.
 
 ## Citation
 
-For academic use, please cite our forthcoming paper:
+If you use this algorithm in your work, please cite the following paper:
 
-**IECO: An Improved Educational Competition Optimizer for State-of-the-Art Engineering Optimization**  
-Authors: Xiaojie Tang#, Junbo Lian#, Ling Ma, Xincan Wu, Rui Zhong, Yujun Zhang, Huiling Chen  
-- *School of Mechanical Engineering, Sichuan University Jinjiang College, Meishan 620680, PR China*  
-- *School of Mathematics and Computer Sciences, Zhejiang A & F University, Hangzhou 311300, PR China*  
-- *Graduate School of Information Science and Technology, Hokkaido University, Sapporo, Japan*  
-- *School of New Energy, Jingchu University of Technology, Jingmen, 448000, PR China*  
-- *School of Computer Science and Artificial Intelligence, Wenzhou University, Wenzhou 325035, PR China*  
+```bibtex
+@article{TAM2024,
+  author = {Junbo Jacob Lian and Kaichen OuYang and Rui Zhong and Yujun Zhang and Shipeng Luo and Ling Ma and Xincan Wu and Huiling Chen},
+  title = {Trend-Aware Mechanism: A Novel Update Strategy for Improved Metaheuristic Algorithm Performance},
+  journal = {Journal Name},
+  year = {2025},
+  url = {https://github.com/junbolian/Trend-Aware-Mechanism}
+}
+```
 
-#These authors contributed equally to this work.  
-**Corresponding authors**: Junbo Lian (junbolian@qq.com), Huiling Chen (chenhuiling.jlu@gmail.com)
+## Flowchart
 
-Stay tuned for more updates and the publication of the full paper for further insights into the theoretical background and experimental results.
+A flowchart summarizing the Trend-Aware Mechanism can be found below:
+
+![Chart](Chart.png)
+
+---
+
+You can upload the flowchart as `Chart.png` in the repository to accompany the README. Let me know if you need further assistance!
