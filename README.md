@@ -5,9 +5,9 @@ Junbo Jacob Lian, Kaichen OuYang, Rui Zhong, Yujun Zhang, Shipeng Luo, Ling Ma, 
 
 **Affiliations:**
 - a) School of Mathematics and Computer Sciences, Zhejiang A & F University, Hangzhou 311300, PR China
-- b) Information Initiative Center, Hokkaido University, Sapporo, Japan
-- c) School of New Energy, Jingchu University of Technology, Jingmen 448000, PR China
-- d) School of Mathematics, University of Science and Technology of China, Hefei 230026, PR China
+- b) School of Mathematics, University of Science and Technology of China, Hefei 230026, PR China
+- c) Information Initiative Center, Hokkaido University, Sapporo, Japan
+- d) School of New Energy, Jingchu University of Technology, Jingmen 448000, PR China
 - e) College of Mechanical and Electrical Engineering, Northeast Forestry University, Harbin 150040, PR China
 - f) School of Computer Science and Artificial Intelligence, Wenzhou University, Wenzhou 325035, PR China
 
