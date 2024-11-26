@@ -3,14 +3,6 @@
 **Authors:**  
 Junbo Jacob Lian, Kaichen OuYang, Rui Zhong, Yujun Zhang, Shipeng Luo, Ling Ma, Xincan Wu, Huiling Chen  
 
-**Affiliations:**
-- a) School of Mathematics and Computer Sciences, Zhejiang A & F University, Hangzhou 311300, PR China
-- b) School of Mathematics, University of Science and Technology of China, Hefei 230026, PR China
-- c) Information Initiative Center, Hokkaido University, Sapporo, Japan
-- d) School of New Energy, Jingchu University of Technology, Jingmen 448000, PR China
-- e) College of Mechanical and Electrical Engineering, Northeast Forestry University, Harbin 150040, PR China
-- f) School of Computer Science and Artificial Intelligence, Wenzhou University, Wenzhou 325035, PR China
-
 **Abstract:**  
 In metaheuristic optimization algorithm design, historical search position information is often underutilized, despite its potential to reveal both individual movement trends and promising search directions. To address this, we propose a Trend-Aware Mechanism (TAM) that leverages historical search position data to enhance the updating of individual positions. TAM first determines the primary movement direction by calculating a trend line between population positions from the previous two iterations. It then evaluates whether a more optimal search position exists between these points by analyzing the fitness of the K points closest to the trend line. An adaptive covariance mechanism is subsequently employed to generate high-dimensional random vectors that balance historical trends with random exploration, allowing for dynamic adjustment of position updating strategies. Experimental results demonstrate that TAM significantly enhances population search capabilities and yields superior optimization performance across a range of standard benchmark functions.
 
