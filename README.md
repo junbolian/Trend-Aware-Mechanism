@@ -58,7 +58,6 @@ If you use this algorithm in your work, please cite the following paper:
 J. J. Lian et al., Trend-Aware Mechanism: A Novel Update Strategy for Improved Metaheuristic Algorithm Performance.
 
 
-
 ## Flowchart
 
 A flowchart summarizing the Trend-Aware Mechanism can be found below:
