@@ -55,7 +55,7 @@ TAM was tested on a variety of benchmark functions and showed significant improv
 
 If you use this algorithm in your work, please cite the following paper:
 
-J. J. Lian et al., Trend-Aware Mechanism: A Novel Update Strategy for Improved Metaheuristic Algorithm Performance.
+J. J. Lian et al., Trend-Aware Mechanism for Metaheuristic Algorithms. 
 
 
 ## Flowchart
