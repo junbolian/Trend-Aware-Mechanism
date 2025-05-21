@@ -1,4 +1,4 @@
-# Trend-Aware Mechanism: A Novel Update Strategy for Improved Metaheuristic Algorithm Performance
+# Trend-Aware Mechanism: An Novel Update Strategy for Improved Metaheuristic Algorithm Performance
 
 **Authors:**  
 Junbo Jacob Lian, Kaichen OuYang, Rui Zhong, Yujun Zhang, Shipeng Luo, Ling Ma, Xincan Wu, Huiling Chen  
